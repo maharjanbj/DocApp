@@ -1,0 +1,40 @@
+.error-page {
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  display: flex;
+  gap: 20px;
+}
+.error-contain {
+  width: 50%;
+  font-weight: 500;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  place-items: left;
+  justify-content: center;
+  padding: 4px 24px;
+}
+.error-paragraph {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.error-btn button {
+  border: none;
+  padding: 8px 24px;
+  background: #386fa4;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.error-btn button:hover {
+  background: #295998;
+}
+.error-img {
+  width: 50%;
+  /* border: 1px solid black; */
+}
+.error-img img {
+  max-width: 100%;
+  height: auto;
+}
